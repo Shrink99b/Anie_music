@@ -4,7 +4,6 @@ __version__ = "0.6.5"
 import time
 import logging
 
-from base.core import me_bot
 
 logging.basicConfig(
   filename=f'aniemusic-logs-{me_bot.id}.txt',
