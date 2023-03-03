@@ -6,7 +6,7 @@ import logging
 
 
 logging.basicConfig(
-  filename=f'aniemusic-logs-{me_bot.id}.txt',
+  filename=f'aniemusic-logs-,
   level=logging.INFO,
   format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
