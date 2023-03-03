@@ -5,7 +5,6 @@ from pytgcalls import idle
 from config import BOT_USERNAME as cli
 
 async def start_bot():
-    await start()
     LOGS.info("[INFO]: BOT & ANIEUSERBOT CLIENT STARTED !!")
     await calls.start()
     LOGS.info("[INFO]: PY-TGCALLS CLIENT STARTED !!")
