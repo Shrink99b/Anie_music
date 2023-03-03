@@ -7,9 +7,6 @@ from config import BOT_USERNAME as cli
 async def start_bot():
     LOGS.info("[INFO]: BOT & ANIEUSERBOT CLIENT STARTED !!")
     LOGS.info("[INFO]: PY-TGCALLS CLIENT STARTED !!")
-    await user.join_chat("aniebotsupports")
-    await user.join_chat("aniebots")
-    await user.send_message(f"{cli}", "/start")
     await idle()
     LOGS.info("[INFO]: BOT & USERBOT STOPPED !!")
 
